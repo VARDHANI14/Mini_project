@@ -1,0 +1,28 @@
+h2{
+    color: blue;
+    background-color: lightcoral;
+}
+#a{
+    color: black;
+    background-color: rgb(225, 0, 255);
+    font-family: Arial, Helvetica, sans-serif;
+}
+.b{
+    color:rgb(42, 165, 63);
+    background-color: red;
+}
+.c{
+    /* box model*/
+    padding: 20px;
+    border-style: double;
+    border-color: black;
+    border-width: 12px;
+    margin: 20px;
+    border-radius: 120px;
+}
+#a1{
+    border-spacing: 50px;
+}
+td{
+    border-style:double;
+}
