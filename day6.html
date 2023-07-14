@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            background-image: url(https://images.pexels.com/photos/844297/pexels-photo-844297.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
+            background-size: cover;
+        }
+        /*h1{
+            color: white;
+            /*word-spacing: 120px;*/
+            /*line-height: 5;
+            /*text-indent: 100px;*/
+            /*text-decoration: underline;
+            text-decoration-color: lightgreen;
+        }*/
+        #box{
+            /*background: -webkit-linear-gradient(red,blue);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            font-size:40px;*/
+            width: 200px;
+            height: 200px;
+            background-color: aqua;
+            animation-name: myanim;
+            animation-iteration-count: infinite;
+            animation-duration: 7s;
+            position: relative;
+        }
+        @keyframes myanim{
+            0%{background-color: brown;left:0px;top:0px;} 10% {background-color: darkgoldenrod;left:200px;top:0px;}
+            20%{background-color: white;
+                border-radius:20px;left:200px;top:200px;}30%
+            {background-color: crimson;border-radius:40px;left:0px;top:200px;}40%{background-color: darkgreen;left:0px;top:0px;}
+        }
+        #box1{
+            width: 200px;
+            height: 200px;
+            background-color: rgb(17, 0, 255);
+            animation-name: myanim1;
+            animation-iteration-count: infinite;
+            animation-duration: 1s;
+            position: relative;
+        }
+        @keyframes myanim1{
+            /*from{transform: translateX(0);} to{transform: translateX(100px);*/
+            from{transform: rotate(0);} to{transform: rotate(360deg);}
+
+        }
+    </style>
+</head>
+<body>
+    <div align="center" id="box">
+        <h1>Welcome all</h1>
+    </div>
+    <div  id="box1"></div>
+</body>
+</html>
